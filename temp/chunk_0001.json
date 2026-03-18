@@ -1,0 +1,998 @@
+[
+  {
+    "id": "battle_speechbubble_cromer_1",
+    "desc": "말풍선 특수 대사_크로머",
+    "dlg": "Aah... Poderia... Você é...\nMeu Sinclair...?"
+  },
+  {
+    "id": "battle_speechbubble_10808_1",
+    "desc": "말풍선 특수 대사_피쿼드호 선장 이스마엘",
+    "dlg": "Tudo culpa minha, você diz...? Que culpa?\nOuso dizer que é tudo graças a mim."
+  },
+  {
+    "id": "battle_speechbubble_10408_1",
+    "desc": "말풍선 특수 대사_에드가 가문 치프 버틀러 료슈",
+    "dlg": "TRISTE.\nVocê é um fracasso de Chefe Butler."
+  },
+  {
+    "id": "battle_react_10710_1",
+    "desc": "말풍선 특수 대사_와일드헌트 히스클리프",
+    "dlg": "Uma recepção bastante patética!"
+  },
+  {
+    "id": "battle_react_10710_2",
+    "desc": "말풍선 특수 대사_와일드헌트 히스클리프",
+    "dlg": "... vou arrancar o seu\nolhos desdenhosos."
+  },
+  {
+    "id": "battle_react_10710_3",
+    "desc": "말풍선 특수 대사_와일드헌트 히스클리프",
+    "dlg": "Você ainda não consegue entender?\nQue você... não passa de uma presa!"
+  },
+  {
+    "id": "battle_react_10710_4",
+    "desc": "말풍선 특수 대사_와일드헌트 히스클리프",
+    "dlg": "Um vira-lata encharcado, não é?\nOh, isso não te lembra\no dia em que tomei o seu lugar?! HAHAHAHA!"
+  },
+  {
+    "id": "battle_react_10710_5",
+    "desc": "말풍선 특수 대사_와일드헌트 히스클리프",
+    "dlg": "Hmph, como você ousa glorificar\nlava-louças mostram suas facas para mim?"
+  },
+  {
+    "id": "battle_react_10710_6",
+    "desc": "말풍선 특수 대사_와일드헌트 히스클리프",
+    "dlg": "Catarina...?! Sou eu, Heathcliff...!\nPor favor, me abrace mais uma vez!!!"
+  },
+  {
+    "id": "battle_react_10710_7",
+    "desc": "말풍선 특수 대사_와일드헌트 히스클리프",
+    "dlg": "Não importa que tipo de Heathcliff você é!\nVou abraçar cada Catherine minha!!!"
+  },
+  {
+    "id": "battle_react_10310_10",
+    "desc": "말풍선 특수 대사_라만차랜드 실장 돈키호테",
+    "dlg": "...Você desistiu do seu sonho pela Família?\nVocê, que pregou sobre o seu\nsonhe com cada respiração...?"
+  },
+  {
+    "id": "battle_react_10310_11",
+    "desc": "말풍선 특수 대사_라만차랜드 실장 돈키호테",
+    "dlg": "Não... ela não é como minha irmã."
+  },
+  {
+    "id": "battle_react_10310_12",
+    "desc": "말풍선 특수 대사_라만차랜드 실장 돈키호테",
+    "dlg": "Você ousa erguer sua lâmina contra um Membro superior?\nA punição por sua impiedade filial o aguarda.\n... E para mim também, suponho..."
+  },
+  {
+    "id": "battle_react_10310_13",
+    "desc": "말풍선 특수 대사_라만차랜드 실장 돈키호테",
+    "dlg": "Essas feridas... o sacerdote deste mundo\ndeve ser igualmente assombrado pela culpa."
+  },
+  {
+    "id": "battle_1137_FirstKill",
+    "desc": "말풍선 특수 대사_가치우_첫킬",
+    "dlg": "Espero que você lute até a morte neste\nluta crucial, por mais reversíveis que sejam."
+  },
+  {
+    "id": "8SV-015",
+    "desc": "가치우사용 시 대사 ",
+    "dlg": "Descubra isso."
+  },
+  {
+    "id": "8SV-016",
+    "desc": "가치우홍루 강제 타겟팅 1",
+    "dlg": "Deve permanecer ali imóvel, por mais envolto que esteja."
+  },
+  {
+    "id": "8SV-017",
+    "desc": "가치우홍루 강제 타겟팅 2",
+    "dlg": "Deve permanecer enterrado ainda?"
+  },
+  {
+    "id": "8SV-018",
+    "desc": "가치우홍루 강제 타겟팅 합 패배",
+    "dlg": "Demonstre-me sua vontade."
+  },
+  {
+    "id": "8SV-019",
+    "desc": "가치우홍루 강제 타겟팅 합 승리",
+    "dlg": "A massa de dor dentro do seu coração... é difícil de desembaraçar."
+  },
+  {
+    "id": "8SV-020",
+    "desc": "가치우광역기 사용시",
+    "dlg": "São seus companheiros que seguram sua língua?\nEntão... talvez eles devam ser abalados antes\nvocê deve falar a sua verdade."
+  },
+  {
+    "id": "8SV-021",
+    "desc": "가치우광역기  합 패배 후 다음턴",
+    "dlg": "Não tema a futilidade. Haverá tempo para isso, uma vez que você tenha falado o que pensa."
+  },
+  {
+    "id": "8SV-022",
+    "desc": "가치우대상 처치시",
+    "dlg": "Descanse um pouco... até o relógio girar."
+  },
+  {
+    "id": "8SV-023",
+    "desc": "가치우묘 부리기",
+    "dlg": "Corte-os, Mao."
+  },
+  {
+    "id": "8SV-024",
+    "desc": "가치우자로 소환",
+    "dlg": "Ouça-me, Zilu."
+  },
+  {
+    "id": "8SV-025",
+    "desc": "뇌횡",
+    "dlg": "Huh... vocês não são tão ruins!\nContinue fazendo valer a pena minhas taxas de bala!"
+  },
+  {
+    "id": "8SV-026",
+    "desc": "뇌횡사용 시: 탄환 충분 - 강력한 스킬",
+    "dlg": "Olhos aqui em cima, rapazes!\nNão percam a cabeça agora!"
+  },
+  {
+    "id": "8SV-027",
+    "desc": "뇌횡사용 시: 탄환 부족 - 강력한 스킬",
+    "dlg": "Bem, o que é isso? Gerenciável até agora?"
+  },
+  {
+    "id": "8SV-028",
+    "desc": "뇌횡턴 시작 : 매우 강력한 스킬",
+    "dlg": "Estou prestes a lançar algo grande sobre vocês!\nNão deixe isso matar vocês agora e estragar a diversão!"
+  },
+  {
+    "id": "8SV-029",
+    "desc": "뇌횡합 승리 : 매우 강력한 스킬",
+    "dlg": "Ah, caramba, não me diga\nvocês já estão esgotados!"
+  },
+  {
+    "id": "8SV-030",
+    "desc": "뇌횡턴 시작 : [체력 n% 이하]에 버프 획득",
+    "dlg": "É mais assim.\nVocês estão me despedindo!"
+  },
+  {
+    "id": "8SV-031",
+    "desc": "뇌횡사용 시 : [체력 n% 이하] 필살기(",
+    "dlg": "Vocês não vão caçar tigres sem se preparar\nvocês mesmos serão mastigados entre uma daquelas mandíbulas!"
+  },
+  {
+    "id": "8SV-032",
+    "desc": "뇌횡턴 시작 : [체력 n% 이하]에 버프 변경",
+    "dlg": "Não posso deixar uma dança inacabada.\nNão é mesmo?"
+  },
+  {
+    "id": "8SV-034",
+    "desc": "가환E.G.O 침식률 n 이상",
+    "dlg": "Não posso perder mais tempo com isso...\n... insetos doentios e revoltantes."
+  },
+  {
+    "id": "8SV-035",
+    "desc": "가환홍루메인타겟",
+    "dlg": "Não finja que você mudou.\nVocê ainda é o mesmo lixo que era naquela época... escória!"
+  },
+  {
+    "id": "8SV-036",
+    "desc": "가환경멸나선모드",
+    "dlg": "... Este também é o poder do E.G.O?"
+  },
+  {
+    "id": "8SV-037",
+    "desc": "가환광역기사용시",
+    "dlg": "Contemplar! Esse desprezo!\nChove sobre a sujeira nojenta!"
+  },
+  {
+    "id": "8SV-038",
+    "desc": "가환전투시작 : n인이상이 자신을 타겟",
+    "dlg": "Loucura."
+  },
+  {
+    "id": "8SV-039",
+    "desc": "구보E.G.O 침식률 10 이상",
+    "dlg": "Você deu uma olhada na primavera de ontem.\nUma memória raramente aproveitada até para mim."
+  },
+  {
+    "id": "8SV-040",
+    "desc": "구보난사 패턴 진입",
+    "dlg": "Não deixe que seus laços anteriores arruinem seu julgamento.\nIsso me faz querer explodir todos eles."
+  },
+  {
+    "id": "8SV-041",
+    "desc": "구보아군 살해 패턴 진입",
+    "dlg": "Sacrifícios são necessários\nem busca da causa maior."
+  },
+  {
+    "id": "8SV-042",
+    "desc": "구보체력 n% 미만 / 경멸 나선 모드 감상",
+    "dlg": "... Ufa. Isso funcionou."
+  },
+  {
+    "id": "8SV-051",
+    "desc": "가모사용 시 : 홍루 가두기",
+    "dlg": "Cumpra o seu valor!"
+  },
+  {
+    "id": "8SV-052",
+    "desc": "가모사용 시 : 홍루 가두기 실패",
+    "dlg": "Você ousa!"
+  },
+  {
+    "id": "8SV-053",
+    "desc": "가모턴 시작 : 보옥 생성",
+    "dlg": "Oh, reverenciado Xianren! Shi Miyin trouxe a joia de volta!\nA linda joia que deixará Hongyuan linda de novo…!"
+  },
+  {
+    "id": "8SV-054",
+    "desc": "가모턴 시작 : 보옥 파괴",
+    "dlg": "Transgressores blasfemos!\nEstranhos não cobiçarão o tesouro de Daguanyuan!"
+  },
+  {
+    "id": "8SV-055",
+    "desc": "가모사용 시 : 버프 받기",
+    "dlg": "Você me favorece, não é?\nEu sabia que você faria isso, querido Xianhuang Worm!"
+  },
+  {
+    "id": "8SV-056",
+    "desc": "가모가마 체력 0",
+    "dlg": "NÃO!!!!!!"
+  },
+  {
+    "id": "8SV-057",
+    "desc": "가모사용 시 : 어르신 나무 소환",
+    "dlg": "Toda a sabedoria de Hongyuan…\nDê para mim, dê para Miyin...!"
+  },
+  {
+    "id": "8SV-058",
+    "desc": "가모사용 시 : 어르신 나무 흡수",
+    "dlg": "Seja um com a história insondável de Hongyuan!"
+  },
+  {
+    "id": "8SV-059",
+    "desc": "가모턴 시작 : 지고한 불사 흐트러짐 실패",
+    "dlg": "Transcendemos o jugo da vida e da morte...\nAssim, Hongyuan também brilhará por toda a eternidade!"
+  },
+  {
+    "id": "8SV-060",
+    "desc": "가모턴 시작 : 지고한 불사 흐트러짐",
+    "dlg": "Ahh... Que vergonhoso fracasso de deveres é esse..."
+  },
+  {
+    "id": "8SV-061",
+    "desc": "가모사용 시 : 강한 광역기",
+    "dlg": "Você vai nos obedecer!"
+  },
+  {
+    "id": "6SV-018-02",
+    "desc": "증오의 여왕 피격",
+    "dlg": "Ai...!"
+  },
+  {
+    "id": "6SV-019-003",
+    "desc": "증오의 여왕 타격",
+    "dlg": "Com amor!"
+  },
+  {
+    "id": "6SV-019-004",
+    "desc": "증오의 여왕 타격",
+    "dlg": "Em Nome da Justiça!"
+  },
+  {
+    "id": "6SV-020-001",
+    "desc": "증오의 여왕 타격",
+    "dlg": "Batidas Arcanas!"
+  },
+  {
+    "id": "6SV-020-001-01",
+    "desc": "증오의 여왕 타격",
+    "dlg": "Batidas Arcanas ~!"
+  },
+  {
+    "id": "6SV-020-002",
+    "desc": "증오의 여왕 타격",
+    "dlg": "Desaparecer ~"
+  },
+  {
+    "id": "6SV-021",
+    "desc": "증오의 여왕 첫 등장",
+    "dlg": "Em nome do Amor e da Justiça ~ Aí vem a Garota Mágica!"
+  },
+  {
+    "id": "6SV-022",
+    "desc": "절망의 기사 첫 흐트러짐 이후 검 소환 패턴에 진입했을 때",
+    "dlg": "Então você também foi consumido, senpai… Esse ciclo realmente não pode ser interrompido?"
+  },
+  {
+    "id": "6SV-023",
+    "desc": "아르카나 슬레이브 차징 시작 시",
+    "dlg": "Ouça-me, você que é mais azul que a justiça e mais carmesim que o amor..."
+  },
+  {
+    "id": "6SV-024",
+    "desc": "아르카나 슬레이브 차징 중",
+    "dlg": "Em nome daqueles enterrados no destino, farei este juramento à luz."
+  },
+  {
+    "id": "6SV-025",
+    "desc": "아르카나 슬레이브 차징 중",
+    "dlg": "Observe os seres odiosos que estão diante de nós;\ndeixe sua força se fundir com a minha,\npara que possamos entregar o poder do amor a todos!"
+  },
+  {
+    "id": "6SV-026",
+    "desc": "아르카나 슬레이브 발사 스킬 사용",
+    "dlg": "<i>ESCRAVO ARCANA!</i>"
+  },
+  {
+    "id": "6SV-027",
+    "desc": "제압 완료 후 퇴각 대사",
+    "dlg": "Você... vem suprimindo isso tanto quanto pode..."
+  },
+  {
+    "id": "6SV-028",
+    "desc": "완전 제압 X, 아르카나 슬레이브 발사 후",
+    "dlg": "Huff, puff, puff... Será que... nós a pegamos?!"
+  },
+  {
+    "id": "6SV-029",
+    "desc": "빈사 퇴각",
+    "dlg": "Jurei que iria... proteger todos... até o fim..."
+  },
+  {
+    "id": "6SV-001_1",
+    "desc": "시간살인마 피격1",
+    "dlg": "Nossa, isso dói!"
+  },
+  {
+    "id": "6SV-001_2",
+    "desc": "시간살인마 피격2",
+    "dlg": "\"Você não poderia ter se esquivado disso, seu idiota?!\""
+  },
+  {
+    "id": "6SV-001_3-03",
+    "desc": "시간살인마 피격4",
+    "dlg": "Oh!\n\"Caramba...\""
+  },
+  {
+    "id": "6SV-002_2",
+    "desc": "시간살인마 공격1",
+    "dlg": "Nós vamos acabar com você."
+  },
+  {
+    "id": "6SV-002_3",
+    "desc": "시간살인마 공격3",
+    "dlg": "Você ia matar esse tempo de qualquer maneira."
+  },
+  {
+    "id": "6SV-003_1",
+    "desc": "시간살인마 첫 등장",
+    "dlg": "Não podemos roubar o tempo deles...?\n\"Seu idiota!\"\n\"Nós fomos enganados!\""
+  },
+  {
+    "id": "6SV-004_1",
+    "desc": "시간살인마 재 등장",
+    "dlg": "Colhemos as últimas horas.\n\"Você tem muito tempo! Dê!\"\n\"Vamos cortar 500... não, 2.000 horas.\"\n\"Controle-se, seu boneco!\""
+  },
+  {
+    "id": "6SV-005_1",
+    "desc": "시간살인마 2페이즈",
+    "dlg": "\"Droga... vamos acabar com isso.\"\n\"Você está tirando muito tempo de nós...!\"\nOs benefícios superarão os custos. Acalmar."
+  },
+  {
+    "id": "6SV-006_1",
+    "desc": "시간살인마 시간 살인 시간 사용전",
+    "dlg": "Não temos escolha a não ser usá-lo.\n\"Certifique-se de que suas contas estão corretas. Horas iguais para todos!\""
+  },
+  {
+    "id": "6SV-007",
+    "desc": "시간살인마 시간 살인 시간 사용",
+    "dlg": "Nós... cortaremos você."
+  },
+  {
+    "id": "6SV-008",
+    "desc": "시간살인마 시간 살인 시간 사용후",
+    "dlg": "Cale-Cale a boca! Estamos brigando...! Isso é uma perda de tempo!"
+  },
+  {
+    "id": "battle_react_noVoice_10613_1",
+    "desc": "말풍선 특수 대사_홍원 군주 홍루_사화정",
+    "dlg": "Não me lembro desse candidato... Hm, todos os tipos de idiotas parecem disputar o assento do Hierarca neste lugar que eles chamam de mundo espelhado."
+  },
+  {
+    "id": "battle_react_noVoice_10613_2",
+    "desc": "말풍선 특수 대사_홍원 군주 홍루_왕청산",
+    "dlg": "Este não é lugar para algo tão insignificante como a família. Você, que é sem causa e sem visão em relação a Hongyuan, não pertence a este lugar."
+  },
+  {
+    "id": "battle_react_noVoice_10613_3",
+    "desc": "말풍선 특수 대사_홍원 군주 홍루_사사정",
+    "dlg": "Benighted é esse tolo. Não é necessário coagir os outros a sacrificarem as suas vidas, pois a prossecução de uma grande causa gera naturalmente aqueles que enfrentariam alegremente a própria morte."
+  },
+  {
+    "id": "battle_react_noVoice_10613_4",
+    "desc": "말풍선 특수 대사_홍원 군주 홍루_설반",
+    "dlg": "Apesar de toda essa aversão à violência, você parece ter um talento passageiro para isso. Até um covarde patético se torna... um louco quando é levado pela correnteza."
+  },
+  {
+    "id": "battle_react_noVoice_10613_5",
+    "desc": "말풍선 특수 대사_홍원 군주 홍루_사이화",
+    "dlg": "Eis o tolo, o bobo da corte; ele grita ostentações vazias em direção ao céu, mas o céu permanece igualmente inacessível."
+  },
+  {
+    "id": "battle_react_10613_6",
+    "desc": "말풍선 특수 대사_홍원 군주 홍루_가모1페",
+    "dlg": "Ha... ha ha! Sempre acolherei outra oportunidade para eliminar esses demônios antigos que foram seduzidos pela imortalidade!"
+  },
+  {
+    "id": "battle_react_10613_7",
+    "desc": "말풍선 특수 대사_홍원 군주 홍루_가모2페",
+    "dlg": "Continue se contorcendo nessa sujeira, Shi Miyin... Isso só aumentará o sabor da felicidade, da ira, da tristeza e da alegria quando eu me apegar a você!"
+  },
+  {
+    "id": "battle_react_10613_8",
+    "desc": "말풍선 특수 대사_홍원 군주 홍루_가치우1페",
+    "dlg": "Nunca pensei que veria você em Hongyuan novamente, irmão mais velho... Fuhu, então neste mundo você conseguiu sobreviver. Você parece estar traçando seu próprio caminho, assim como eu."
+  },
+  {
+    "id": "battle_react_10613_9",
+    "desc": "말풍선 특수 대사_홍원 군주 홍루_가치우3페",
+    "dlg": "Ufa... ok, tudo bem. Então...\nComo Senhor de Hongyuan, concedo-lhe audiência."
+  },
+  {
+    "id": "battle_react_10613_10",
+    "desc": "말풍선 특수 대사_홍원 군주 홍루_가환",
+    "dlg": "A vingança de Jia Huan não deveria afetar você tanto agora, deveria...? Quando é que esta revoltante demonstração de melodrama tardio substituiu a sua defesa do pragmatismo frio e calculista que tinha discutido antes de mim?"
+  },
+  {
+    "id": "battle_react_10613_701",
+    "desc": "말풍선 특수 대사_홍원 군주 홍루_가모 보옥탈출",
+    "dlg": "Nunca deixei esse berço doentio me aprisionar, e isso não vai mudar hoje! Nunca!"
+  },
+  {
+    "id": "battle_react_10613_901",
+    "desc": "말풍선 특수 대사_홍원 군주 홍루_가치우_문답1스택",
+    "dlg": "Fascinante. Por que não me disseram que diálogos tão interessantes poderiam ser mantidos com ele neste mundo?"
+  },
+  {
+    "id": "battle_react_10613_902",
+    "desc": "말풍선 특수 대사_홍원 군주 홍루_가치우_문답2스택",
+    "dlg": "Você afirma que a educação da humanidade e da propriedade é o que limpa os anos de ações cruéis? O primeiro passo parece ter escapado a você: pulverizar totalmente os atos cruéis. Só então a humanidade e a propriedade terão algum significado."
+  },
+  {
+    "id": "battle_react_10613_903",
+    "desc": "말풍선 특수 대사_홍원 군주 홍루_가치우_문답3스택",
+    "dlg": "O mal deve ser arrancado impiedosamente de suas raízes (除惡務盡 斬草除根). O caminho que escolhi como Senhor de Hongyuan é um caminho livre da necessidade de buscar a compreensão dos outros. Assim, irmão mais velho, não, Jia Qiu, este diálogo encontrou um impasse."
+  },
+  {
+    "desc": "#################################### LIMBUS COMPANY SPEECH BUBBLE FAN TRANSLATION & ALREADY TRANSLATED LINES FROM HERE!!!!!!!! #########################################################"
+  },
+  {
+    "desc": "######################### ENEMY SPEECH BUBBLES ###########################"
+  },
+  {
+    "id": "battle_order_attack_8106_1",
+    "desc": "############ Captain Ahab ############",
+    "dlg": "Cubra-me!"
+  },
+  {
+    "id": "battle_order_attack_8106_1-01",
+    "desc": "",
+    "dlg": "Cubra-me!"
+  },
+  {
+    "id": "battle_order_attack_8106_1-02",
+    "desc": "",
+    "dlg": "Cubra-me!"
+  },
+  {
+    "id": "battle_order_defence_8106_1",
+    "desc": "",
+    "dlg": "Agora! Proteja-me!"
+  },
+  {
+    "id": "battle_order_defence_8106_1-01",
+    "desc": "",
+    "dlg": "Agora... Proteja-me!"
+  },
+  {
+    "id": "battle_order_defence_8106_1-02",
+    "desc": "",
+    "dlg": "Agora! Proteja-me!"
+  },
+  {
+    "id": "battle_c_8106_1",
+    "desc": "############ Effloresced E.G.O::GasHarpoon Ahab ############",
+    "dlg": "Pip, sua hora chegou...\nSeu momento de ascender à grandeza!"
+  },
+  {
+    "id": "battle_c_8106_2",
+    "desc": "",
+    "dlg": "Primeiro imediato Starbuck...\nA liberdade está ao virar da esquina!"
+  },
+  {
+    "id": "battle_c_8106_3",
+    "desc": "",
+    "dlg": "Queequeg, meu melhor arpoador...\nCorte esse nó! Diante dos meus olhos!"
+  },
+  {
+    "id": "battle_selection2_8105_1-01",
+    "desc": "1On death in MD",
+    "dlg": "Uma vez Acabe... será Acabe para sempre...!"
+  },
+  {
+    "id": "battle_s5_8173_1-01",
+    "desc": "############ Erlking Heathcliff ############",
+    "dlg": "Que todos se contorçam nas profundezas do sofrimento."
+  },
+  {
+    "id": "battle_killheath_8173_1-01",
+    "desc": "",
+    "dlg": "Não... Você deve sofrer mais."
+  },
+  {
+    "id": "battle_killheath_8173_1",
+    "desc": "",
+    "dlg": "Não! Você deve sofrer mais!"
+  },
+  {
+    "id": "battle_killheath_8173_2",
+    "desc": "",
+    "dlg": "Nem merecemos respirar."
+  },
+  {
+    "id": "battle_killheath_8173_3",
+    "desc": "",
+    "dlg": "Feche os olhos, miseravelmente."
+  },
+  {
+    "id": "7SV-036",
+    "desc": "############ LaMancha Barber Nicolina ############",
+    "dlg": "Ah, quanto tempo faz desde que todos nós nos reunimos assim?"
+  },
+  {
+    "id": "7SV-027",
+    "desc": "",
+    "dlg": "Huhu ~ é uma festa?"
+  },
+  {
+    "id": "7SV-028",
+    "desc": "",
+    "dlg": "Ahaha! É uma pétala de sangue~!"
+  },
+  {
+    "id": "7SV-029",
+    "desc": "",
+    "dlg": "Este sangue... não é suficiente!"
+  },
+  {
+    "id": "7SV-030",
+    "desc": "",
+    "dlg": "Ah! Este sangue fresco...! Hahaha!"
+  },
+  {
+    "id": "7SV-030-01",
+    "desc": "",
+    "dlg": "Ah!"
+  },
+  {
+    "id": "7SV-035",
+    "desc": "",
+    "dlg": "Hah... eu não consegui fazer uma boa colcha de retalhos com isso.\nEntão vou simplesmente me desfazer dele!"
+  },
+  {
+    "id": "7SV-034",
+    "desc": "",
+    "dlg": "Oh, você se tornou um trapo? Quão inútil!"
+  },
+  {
+    "id": "7SV-033",
+    "desc": "",
+    "dlg": "Todos os materiais necessários foram reunidos?\nAgora é hora de cortar!!"
+  },
+  {
+    "id": "7SV-031",
+    "desc": "",
+    "dlg": "Huhu~ É assim que deveria ser!"
+  },
+  {
+    "id": "7SV-032",
+    "desc": "",
+    "dlg": "Haha! Este é o melhor!\nRasgando e costurando~!"
+  },
+  {
+    "id": "7SV-038",
+    "desc": "############ LaMancha Princess Dulcinea ############",
+    "dlg": "Com graça."
+  },
+  {
+    "id": "7SV-039",
+    "desc": "",
+    "dlg": "Mais lindamente."
+  },
+  {
+    "id": "7SV-043",
+    "desc": "",
+    "dlg": "É hora de tirar sangue."
+  },
+  {
+    "id": "7SV-045",
+    "desc": "",
+    "dlg": "Essa quantidade de sangue não é suficiente..."
+  },
+  {
+    "id": "7SV-042",
+    "desc": "",
+    "dlg": "Vamos começar o final."
+  },
+  {
+    "id": "7SV-044",
+    "desc": "",
+    "dlg": "O desfile...\nOnde isso iria acabar?"
+  },
+  {
+    "id": "7SV-040",
+    "desc": "",
+    "dlg": "Não se aproxime... Pois lindos espinhos florescerão abundantemente."
+  },
+  {
+    "id": "7SV-041",
+    "desc": "",
+    "dlg": "Os espinhos vermelhos florescerão tão profusamente...\nQue eles não podem ser controlados."
+  },
+  {
+    "id": "7SV-046",
+    "desc": "",
+    "dlg": "Quem disse que você poderia descansar?\nLevante-se agora.\nTemos que continuar marchando."
+  },
+  {
+    "id": "7SV-096",
+    "desc": "############ LaMancha Priest Curiambro ############",
+    "dlg": "O castigo merecido!"
+  },
+  {
+    "id": "7SV-095",
+    "desc": "",
+    "dlg": "É uma dor...\nisso deve ser suportado!"
+  },
+  {
+    "id": "7SV-101",
+    "desc": "",
+    "dlg": "Ah... Como pode ser tão abundante?"
+  },
+  {
+    "id": "7SV-098",
+    "desc": "",
+    "dlg": "Depois de enterrar toda a minha família...\nEu também irei... em breve segui-los."
+  },
+  {
+    "id": "7SV-094",
+    "desc": "",
+    "dlg": "Sangue... preciso de mais sangue...!"
+  },
+  {
+    "id": "7SV-099",
+    "desc": "",
+    "dlg": "Isso também... deve ser suportado..."
+  },
+  {
+    "id": "7SV-100",
+    "desc": "",
+    "dlg": "Ah... Enfim... dessa sede...!"
+  },
+  {
+    "id": "7SV-061",
+    "desc": "############ LaMancha Manager Sancho ############",
+    "dlg": "Há sangue..."
+  },
+  {
+    "id": "7SV-062",
+    "desc": "",
+    "dlg": "Erguer..."
+  },
+  {
+    "id": "7SV-056",
+    "desc": "",
+    "dlg": "Irritante... Apenas morra já...!"
+  },
+  {
+    "id": "7SV-053-03",
+    "desc": "",
+    "dlg": "Arwe Vermelho."
+  },
+  {
+    "id": "7SV-050-03",
+    "desc": "",
+    "dlg": "Lua Crescente."
+  },
+  {
+    "id": "7SV-050-01",
+    "desc": "",
+    "dlg": "Meia Lua."
+  },
+  {
+    "id": "7SV-050-02",
+    "desc": "",
+    "dlg": "Lua Cheia."
+  },
+  {
+    "id": "7SV-051-01",
+    "desc": "",
+    "dlg": "Dragão da Primavera, Lótus do Outono."
+  },
+  {
+    "id": "7SV-057",
+    "desc": "",
+    "dlg": "É tudo em vão..."
+  },
+  {
+    "id": "7SV-053-01",
+    "desc": "",
+    "dlg": "Desenrolando o arco de mil libras."
+  },
+  {
+    "id": "7SV-053-04",
+    "desc": "",
+    "dlg": "Blak Arwe."
+  },
+  {
+    "id": "7SV-051-02-01",
+    "desc": "",
+    "dlg": "Com uma espada intangível!"
+  },
+  {
+    "id": "7SV-050-04",
+    "desc": "",
+    "dlg": "Lua nova."
+  },
+  {
+    "id": "7SV-050-05",
+    "desc": "",
+    "dlg": "Noite de Lua Cheia."
+  },
+  {
+    "id": "7SV-053-05",
+    "desc": "",
+    "dlg": "Arwe Branco."
+  },
+  {
+    "id": "7SV-064",
+    "desc": "",
+    "dlg": "Isso não é suficiente...?"
+  },
+  {
+    "id": "7SV-058",
+    "desc": "",
+    "dlg": "Isso é apenas apego,\nmeu sonho já terminou."
+  },
+  {
+    "id": "7SV-059",
+    "desc": "",
+    "dlg": "Eu vou furar você!"
+  },
+  {
+    "id": "7SV-060",
+    "desc": "",
+    "dlg": "Seus sonhos também! Acabará..."
+  },
+  {
+    "id": "7SV-065",
+    "desc": "",
+    "dlg": "Vamos encerrar."
+  },
+  {
+    "id": "7SV-066",
+    "desc": "",
+    "dlg": "Vamos acabar com isso agora."
+  },
+  {
+    "id": "7SV-026-01",
+    "desc": "############ Knight of the White Moon Bari - i wonder if it works... ############",
+    "dlg": "Dragão da Primavera, Lótus do Outono."
+  },
+  {
+    "id": "7SV-025-05",
+    "desc": "",
+    "dlg": "Blak Arwe."
+  },
+  {
+    "id": "7SV-024-04",
+    "desc": "",
+    "dlg": "Lua Crescente."
+  },
+  {
+    "id": "7SV-024-02-01",
+    "desc": "",
+    "dlg": "Meia Lua."
+  },
+  {
+    "id": "7SV-024-03",
+    "desc": "",
+    "dlg": "Lua Cheia!"
+  },
+  {
+    "id": "7SV-024-05",
+    "desc": "",
+    "dlg": "Lua nova."
+  },
+  {
+    "id": "7SV-025-04-01",
+    "desc": "",
+    "dlg": "Arwe Vermelho."
+  },
+  {
+    "id": "7SV-069",
+    "desc": "############ The Wheel of La Manchaland Don Quixote ############",
+    "dlg": "Tente se defender contra isso novamente."
+  },
+  {
+    "id": "7SV-070",
+    "desc": "",
+    "dlg": "Você acha... que pode se defender disso de novo?"
+  },
+  {
+    "id": "7SV-071",
+    "desc": "",
+    "dlg": "Você acha... que pode se defender de tudo isso?"
+  },
+  {
+    "id": "7SV-076",
+    "desc": "############ LaMancha Founder Don Quixote ############",
+    "dlg": "Sim... foi assim que me senti."
+  },
+  {
+    "id": "7SV-077",
+    "desc": "",
+    "dlg": "Agora... Parece que é o suficiente."
+  },
+  {
+    "id": "7SV-083",
+    "desc": "",
+    "dlg": "Já suportei tanta coisa...\nMas no final...\nEu também estou manchado pela providência."
+  },
+  {
+    "id": "7SV-084",
+    "desc": "",
+    "dlg": "Eu... nós... não mudamos nada.\nA sede da qual não consigo escapar, foi isso que ela me mostrou."
+  },
+  {
+    "id": "7SV-078",
+    "desc": "",
+    "dlg": "Devo saciar minha sede...?\nEu me pergunto!"
+  },
+  {
+    "id": "7SV-082",
+    "desc": "",
+    "dlg": "Fique quieto...\ne permanecer congelado no lugar."
+  },
+  {
+    "id": "7SV-074",
+    "desc": "",
+    "dlg": "Já faz um tempo, vou matar minha sede."
+  },
+  {
+    "id": "7SV-073",
+    "desc": "",
+    "dlg": "Já faz muito tempo desde a última festa."
+  },
+  {
+    "id": "7SV-080",
+    "desc": "",
+    "dlg": "Sangue é algo que não pode ser desafiado."
+  },
+  {
+    "id": "7SV-081",
+    "desc": "",
+    "dlg": "Sancho... Como alcançar um sonho... que já acabou?"
+  },
+  {
+    "id": "7SV-087",
+    "desc": "",
+    "dlg": "Mesmo que alguém escape por pouco de uma falsa aventura...\nConseguirão esquecer a dor de cair de um cavalo?"
+  },
+  {
+    "id": "7SV-086",
+    "desc": "",
+    "dlg": "No final, esse sonho só andará em círculos\ne chegar ao fim. Agora, acorde!"
+  },
+  {
+    "id": "5SV-002",
+    "desc": "############ Santata ############",
+    "dlg": "HO! HO! HO!"
+  },
+  {
+    "id": "5SV-001",
+    "desc": "",
+    "dlg": "HO! HO! Ingredientes de alta qualidade!"
+  },
+  {
+    "id": "5SV-003",
+    "desc": "",
+    "dlg": "Não, não, não!\nOs sonhos dos vizinhos!!!"
+  },
+  {
+    "id": "5SV-006",
+    "desc": "############ Bamboo-hatted Kim ############",
+    "dlg": "Eu entrego minha carne, mas..."
+  },
+  {
+    "id": "5SV-008",
+    "desc": "",
+    "dlg": "'Enfrentando a batalha, para matar o inimigo...'\nExistem variações."
+  },
+  {
+    "id": "5SV-007",
+    "desc": "",
+    "dlg": "Para reivindicar os ossos."
+  },
+  {
+    "id": "5SV-009",
+    "desc": "",
+    "dlg": "Ha ha...\n'Dança da Lâmina Sob a Lua Azul.'"
+  },
+  {
+    "id": "5SV-010",
+    "desc": "",
+    "dlg": "Seu pescoço, pelo menos... será cortado facilmente."
+  },
+  {
+    "id": "special_vergil_bufftarget_atk",
+    "desc": "############ Kkomi and Vergilius? - I'll do the AF sinners if they add them back ############",
+    "dlg": "Então foi você quem escondeu... Hein? É uma fala de um programa de TV."
+  },
+  {
+    "id": "special_vergil_enemy_break",
+    "desc": "",
+    "dlg": "Kkomi não perdoa passageiros que não dão doces."
+  },
+  {
+    "id": "special_vergil_before_s3",
+    "desc": "",
+    "dlg": "Se eu encontrar doces. em seus bolsos. é um soco. por doce."
+  },
+  {
+    "id": "special_vergil_s3",
+    "desc": "",
+    "dlg": "Kkomi. Forte. Se você não der doces. Nervoso."
+  },
+  {
+    "id": "special_vergil_before_s4",
+    "desc": "",
+    "dlg": "Estou entediado agora. Mefi. Abra portas."
+  },
+  {
+    "id": "special_vergil_s4-01",
+    "desc": "",
+    "dlg": "Vroom-vroom."
+  },
+  {
+    "id": "battle_8099_s2_2-01",
+    "desc": "############ Ricardo ############",
+    "dlg": "Completo e total..."
+  },
+  {
+    "id": "battle_8099_s2_2-02",
+    "desc": "",
+    "dlg": "Extermínio!"
+  },
+  {
+    "id": "9SV-BAT7-00-04",
+    "desc": "####### The Thumb Nursefather Apperentice Lucio missing lines #############",
+    "dlg": "Assista a uma demonstração da técnica de desmantelamento de Palermitan. Corte de veado."
+  },
+  {
+    "id": "9SV-BAT7-00-05",
+    "desc": "1Orthis",
+    "dlg": "Assista a uma demonstração da técnica de desmantelamento de Palermitan. Corte de veado!"
+  },
+  {
+    "id": "9SV-BAT7-00-01",
+    "desc": "",
+    "dlg": "Demonstração concluída."
+  },
+  {
+    "id": "9SV-BAT7-00",
+    "desc": "1Might actually be this ID",
+    "dlg": "Demonstração concluída."
+  }
+]
