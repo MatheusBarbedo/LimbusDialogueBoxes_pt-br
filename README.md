@@ -43,32 +43,39 @@ Todos os créditos pela versão original em inglês e pela organização do mate
 
 ```text
 LIMBUSDIALOGUEBOXES_PT-BR/
+├── original/
+│   ├── BattleSpeechBubbleDlg.json
+│   └── BattleSpeechBubbleDlg_mowe.json
+├── traduzido/
 ├── temp/
-├── BattleSpeechBubbleDlg.json
-├── BattleSpeechBubbleDlg_mowe.json
 ├── README.md
 └── tradutor.py
 ```
 
+### Pastas
+
+- `original/`  
+  Contém os arquivos JSON originais que serão usados como entrada
+
+- `traduzido/`  
+  Contém os arquivos finais traduzidos em PT-BR
+
+- `temp/`  
+  Contém os chunks temporários gerados durante o processamento
+
 ### Arquivos principais
-
-- `BattleSpeechBubbleDlg.json`  
-  Arquivo base com diálogos de batalha para tradução
-
-- `BattleSpeechBubbleDlg_mowe.json`  
-  Arquivo base com diálogos de batalha para tradução
 
 - `tradutor.py`  
   Script responsável por traduzir os diálogos e gerar os arquivos finais
 
-- `temp/`  
-  Pasta usada para salvar os blocos temporários durante o processamento
+- `README.md`  
+  Documentação do projeto
 
 ---
 
 ## Como funciona
 
-O script lê um arquivo JSON e procura os campos:
+O script lê um arquivo JSON da pasta `original/` e procura os campos:
 
 ```json
 "dlg": "..."
@@ -80,15 +87,39 @@ Os demais campos, como `id`, `desc` e a estrutura do JSON, permanecem intactos.
 
 ### Fluxo do processamento
 
-1. O script abre o arquivo JSON configurado na variavel INPUT_FILE
+1. O script abre o arquivo JSON configurado na pasta `original/`
 2. Lê a lista `dataList`
 3. Divide o conteúdo em blocos
 4. Traduz apenas os textos do campo `dlg`
 5. Salva os blocos traduzidos dentro da pasta `temp/`
 6. Junta todos os blocos ao final
-7. Gera um novo arquivo JSON em PT-BR
+7. Gera um novo arquivo JSON em PT-BR na pasta `traduzido/`
 
 Essa abordagem é útil para arquivos grandes, porque se o processo for interrompido, os blocos já concluídos continuam salvos.
+
+---
+
+## Convenção dos arquivos gerados
+
+### Arquivos temporários
+
+Os chunks temporários são gerados com o nome do arquivo base, sem a extensão:
+
+```text
+temp/chunk_BattleSpeechBubbleDlg_0001.json
+temp/chunk_BattleSpeechBubbleDlg_0002.json
+temp/chunk_BattleSpeechBubbleDlg_mowe_0001.json
+temp/chunk_BattleSpeechBubbleDlg_mowe_0002.json
+```
+
+### Arquivos finais
+
+Os arquivos traduzidos são gerados na pasta `traduzido/`:
+
+```text
+traduzido/BattleSpeechBubbleDlg.json
+traduzido/BattleSpeechBubbleDlg_mowe.json
+```
 
 ---
 
@@ -122,15 +153,14 @@ pip install deep-translator
 
 ## Como rodar
 
-O script atual trabalha com um arquivo por vez.
+O script atual trabalha com **um arquivo por vez**.
 
-No `tradutor.py`, ajuste as variáveis no topo do arquivo para definir qual JSON será traduzido.
+No `tradutor.py`, ajuste a variável `INPUT_FILE` no topo do arquivo para definir qual JSON será traduzido.
 
 ### Exemplo para `BattleSpeechBubbleDlg.json`
 
 ```python
 INPUT_FILE = "BattleSpeechBubbleDlg.json"
-OUTPUT_FILE = "BattleSpeechBubbleDlg_ptbr.json"
 ```
 
 Depois execute:
@@ -139,11 +169,22 @@ Depois execute:
 python tradutor.py
 ```
 
+O script vai ler:
+
+```text
+original/BattleSpeechBubbleDlg.json
+```
+
+E gerar:
+
+```text
+traduzido/BattleSpeechBubbleDlg.json
+```
+
 ### Exemplo para `BattleSpeechBubbleDlg_mowe.json`
 
 ```python
 INPUT_FILE = "BattleSpeechBubbleDlg_mowe.json"
-OUTPUT_FILE = "BattleSpeechBubbleDlg_mowe_ptbr.json"
 ```
 
 Depois execute novamente:
@@ -152,11 +193,33 @@ Depois execute novamente:
 python tradutor.py
 ```
 
+O script vai ler:
+
+```text
+original/BattleSpeechBubbleDlg_mowe.json
+```
+
+E gerar:
+
+```text
+traduzido/BattleSpeechBubbleDlg_mowe.json
+```
+
 ---
 
 ## Passo a passo
 
-### 1. Abra o projeto no terminal
+### 1. Coloque os arquivos originais na pasta `original/`
+
+Estrutura esperada:
+
+```text
+original/
+├── BattleSpeechBubbleDlg.json
+└── BattleSpeechBubbleDlg_mowe.json
+```
+
+### 2. Abra o projeto no terminal
 
 Exemplo no PowerShell:
 
@@ -164,46 +227,52 @@ Exemplo no PowerShell:
 cd C:\caminho\para\LimbusDialogueBoxes_pt-br
 ```
 
-### 2. Instale a dependência
+### 3. Instale a dependência
 
 ```bash
 pip install deep-translator
 ```
 
-### 3. Escolha o arquivo que deseja traduzir
+### 4. Escolha o arquivo que deseja traduzir
 
-No topo do `tradutor.py`, ajuste `INPUT_FILE` e `OUTPUT_FILE`.
+No topo do `tradutor.py`, ajuste:
 
-### 4. Execute o script
+```python
+INPUT_FILE = "BattleSpeechBubbleDlg.json"
+```
+
+ou
+
+```python
+INPUT_FILE = "BattleSpeechBubbleDlg_mowe.json"
+```
+
+### 5. Execute o script
 
 ```bash
 python tradutor.py
 ```
 
-### 5. Aguarde o processamento
+### 6. Aguarde o processamento
 
-Durante a execução, o script pode:
+Durante a execução, o script irá:
 
+- criar a pasta `traduzido/`, se necessário
 - criar a pasta `temp/`, se necessário
 - gerar arquivos temporários por bloco
 - traduzir apenas os campos `dlg`
 - consolidar o resultado em um arquivo final
 
-### 6. Verifique o arquivo gerado
+### 7. Verifique o arquivo gerado
 
-Ao final, você terá um arquivo como:
+O resultado final ficará na pasta `traduzido/`.
 
-```text
-BattleSpeechBubbleDlg_ptbr.json
-```
-
-ou
+Exemplos:
 
 ```text
-BattleSpeechBubbleDlg_mowe_ptbr.json
+traduzido/BattleSpeechBubbleDlg.json
+traduzido/BattleSpeechBubbleDlg_mowe.json
 ```
-
-dependendo do arquivo configurado.
 
 ---
 
@@ -213,9 +282,19 @@ Como o processamento é feito em blocos, se a execução for interrompida, basta
 
 Os arquivos já gerados na pasta `temp/` podem ser reaproveitados, evitando retrabalho.
 
+Como os chunks agora incluem o nome do arquivo base, é possível traduzir arquivos diferentes sem misturar os blocos temporários.
+
 ---
 
-## Revisão da tradução
+## Logs e revisão
+
+O script gera um arquivo de log chamado:
+
+```text
+tradutor.log
+```
+
+Esse log pode ajudar a identificar falhas de tradução ou valores inesperados durante a execução.
 
 Como parte do conteúdo foi gerada com auxílio de tradução automática, algumas linhas ainda podem precisar de:
 

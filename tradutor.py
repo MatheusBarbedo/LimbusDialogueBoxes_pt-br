@@ -7,10 +7,18 @@ from pathlib import Path
 from deep_translator import GoogleTranslator
 
 INPUT_FILE = "BattleSpeechBubbleDlg.json"
-OUTPUT_FILE = "BattleSpeechBubbleDlg_ptbr.json"
-TEMP_DIR = "temp"
+
+ORIGINAL_DIR = Path("original")
+TRADUZIDO_DIR = Path("traduzido")
+TEMP_DIR = Path("temp")
+
+INPUT_PATH = ORIGINAL_DIR / INPUT_FILE
+OUTPUT_FILE = f"{Path(INPUT_FILE).stem}.json"
+OUTPUT_PATH = TRADUZIDO_DIR / OUTPUT_FILE
+
 LOG_FILE = "tradutor.log"
 CHUNK_SIZE = 200
+nome_base = Path(INPUT_FILE).stem
 
 TAG_REGEX = re.compile(r"<[^>]+>")
 cache = {}
@@ -119,7 +127,7 @@ def processar_chunks(data_list: list, temp_dir: Path):
         inicio = chunk_index * CHUNK_SIZE
         fim = min(inicio + CHUNK_SIZE, total_itens)
 
-        chunk_file = temp_dir / f"chunk_{chunk_index + 1:04d}.json"
+        chunk_file = temp_dir / f"chunk_{nome_base}_{chunk_index + 1:04d}.json"
 
         if chunk_file.exists():
             print(f"[{chunk_index + 1}/{total_chunks}] Já existe: {chunk_file.name} -> pulando")
@@ -143,7 +151,7 @@ def processar_chunks(data_list: list, temp_dir: Path):
 
 
 def juntar_chunks(temp_dir: Path, output_file: Path, original_data: dict):
-    arquivos_chunk = sorted(temp_dir.glob("chunk_*.json"))
+    arquivos_chunk = sorted(temp_dir.glob(f"chunk_{nome_base}_*.json"))
 
     if not arquivos_chunk:
         raise RuntimeError("Nenhum chunk encontrado na pasta temp.")
@@ -165,9 +173,11 @@ def juntar_chunks(temp_dir: Path, output_file: Path, original_data: dict):
 
 
 def main():
-    input_path = Path(INPUT_FILE)
-    output_path = Path(OUTPUT_FILE)
-    temp_dir = Path(TEMP_DIR)
+    input_path = INPUT_PATH
+    output_path = OUTPUT_PATH
+    temp_dir = TEMP_DIR
+
+    TRADUZIDO_DIR.mkdir(exist_ok=True)
     temp_dir.mkdir(exist_ok=True)
 
     logging.info(f"Iniciando tradução do arquivo: {input_path}")

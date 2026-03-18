@@ -1,0 +1,89 @@
+{
+  "dataList": [
+    {
+      "id": "6SV-009-002",
+      "desc": "카세티 피격시",
+      "dlg": "Maldições, maldições!"
+    },
+    {
+      "id": "6SV-009-002-01",
+      "desc": "카세티 피격시",
+      "dlg": "Maldições, maldições!"
+    },
+    {
+      "id": "6SV-010-001",
+      "desc": "카세티 공격시_1",
+      "dlg": "Hah! Ajoelhe-se!"
+    },
+    {
+      "id": "6SV-010-002",
+      "desc": "카세티 공격시_2",
+      "dlg": "É isso, conheça o seu lugar..."
+    },
+    {
+      "id": "6SV-010-003-01",
+      "desc": "카세티 공격시_3",
+      "dlg": "Eu tenho você! N-não? S-fique para trás!"
+    },
+    {
+      "id": "6SV-011-001",
+      "desc": "카세티가 전투 중 등장할 때",
+      "dlg": "Curve-se diante do mestre do reino!"
+    },
+    {
+      "id": "6SV-011-002",
+      "desc": "카세티가 전투 중 등장할 때",
+      "dlg": "O crime de traição merece a morte!"
+    },
+    {
+      "id": "6SV-012",
+      "desc": "카세티 등장 턴",
+      "dlg": "N-não precisa se preocupar... Khh! Eu posso fazer isso... Eles ficarão quietos quando eu abater todos eles."
+    },
+    {
+      "id": "6SV-013-001",
+      "desc": "카세티 나는… 이 행진의… 왕자이다…! 사용 시",
+      "dlg": "Assim que esta marcha terminar... eu me levantarei como Rei! Para reinar sobre tudo!"
+    },
+    {
+      "id": "6SV-013-002",
+      "desc": "카세티 나는… 이 행진의… 왕자이다…! 사용 시",
+      "dlg": "Observar...! Pois esta é a verdadeira marcha do Príncipe!"
+    },
+    {
+      "id": "6SV-014",
+      "desc": "카세티 나는… 이 행진의… 왕자이다…! 사용 후 다음 턴",
+      "dlg": "Dói tanto... Mas eu desejo ver... a extensão deste poder!"
+    },
+    {
+      "id": "6SV-015",
+      "desc": "사샤 등장 시",
+      "dlg": "Eles não entendem? Hah... se tornar Bloodbags será uma melhoria, uma ascensão!"
+    },
+    {
+      "id": "6SV-017_2",
+      "desc": "사샤 스킬 사용시",
+      "dlg": "Vamos pegar mais sangue!!"
+    },
+    {
+      "id": "6SV-017_2-02",
+      "desc": "사샤 스킬 사용시",
+      "dlg": "Vamos pegar mais sangue, ha ha ha...!"
+    },
+    {
+      "id": "6SV-016_1",
+      "desc": "1AddedHitlineforSasha",
+      "dlg": "Maldições!"
+    },
+    {
+      "id": "6SV-016_1-01",
+      "desc": "1AddedHitlineforSasha",
+      "dlg": "Maldições!"
+    },
+    {
+      "id": "6SV-016_1-02",
+      "desc": "1AddedHitlineforSasha",
+      "dlg": "Maldições!"
+    }
+  ]
+}
