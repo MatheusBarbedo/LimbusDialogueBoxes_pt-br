@@ -1,4 +1,4 @@
-# LIMBUSDIALOGUEBOXES_PT-BR
+# LimbusDialogueBoxes_pt-br
 
 Tradução em **Português Brasileiro (PT-BR)** das caixas de diálogo de batalha de **Limbus Company**.
 
@@ -37,6 +37,8 @@ LimbusDialogueBoxes_pt-br/
 │   ├── BattleSpeechBubbleDlg.json
 │   └── BattleSpeechBubbleDlg_mowe.json
 ├── traduzido/
+│   ├── BattleSpeechBubbleDlg.json
+│   └── BattleSpeechBubbleDlg_mowe.json
 ├── logs/
 ├── src/
 │   ├── app.py
