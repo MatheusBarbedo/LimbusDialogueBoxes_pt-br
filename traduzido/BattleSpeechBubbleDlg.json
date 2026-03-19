@@ -13,7 +13,7 @@
     {
       "id": "battle_speechbubble_10408_1",
       "desc": "말풍선 특수 대사_에드가 가문 치프 버틀러 료슈",
-      "dlg": "TRISTE.\nVocê é um fracasso de Chefe Butler."
+      "dlg": "TRISTE.\nVocê é um fracasso de Mordomo-chefe."
     },
     {
       "id": "battle_react_10710_1",
@@ -935,6 +935,21 @@
       "id": "5SV-010",
       "desc": "",
       "dlg": "Seu pescoço, pelo menos... será cortado facilmente."
+    },
+    {
+      "id": "6SV-016_1",
+      "desc": "############ Bloodfiend Sasha ############",
+      "dlg": "Maldições!"
+    },
+    {
+      "id": "6SV-016_1-01",
+      "desc": "1AddedHitlineforSasha",
+      "dlg": "Maldições!"
+    },
+    {
+      "id": "6SV-016_1-02",
+      "desc": "1AddedHitlineforSasha",
+      "dlg": "Maldições!"
     },
     {
       "id": "special_vergil_bufftarget_atk",
@@ -7162,12 +7177,7 @@
     {
       "id": "battle_special_10813_4",
       "desc": "",
-      "dlg": "Guindaste."
-    },
-    {
-      "id": "battle_special_10813_5",
-      "desc": "",
-      "dlg": "Florescer."
+      "dlg": "Guindaste, Flor."
     },
     {
       "id": "battle_special_10813_6",
@@ -7693,6 +7703,21 @@
       "dlg": "Em... em..."
     },
     {
+      "id": "battle_s2_10814_1_1-02",
+      "desc": "",
+      "dlg": "Um."
+    },
+    {
+      "id": "battle_s2_10814_1_2-02",
+      "desc": "",
+      "dlg": "Dois."
+    },
+    {
+      "id": "battle_s2_10814_1_3",
+      "desc": "",
+      "dlg": "Três!"
+    },
+    {
       "id": "battle_s3_10814_1_1",
       "desc": "",
       "dlg": "Este é o melhor ângulo para um ult, certo?"
@@ -8178,89 +8203,64 @@
       "dlg": "Volte para o túmulo... com tudo que deseja viver."
     },
     {
-      "id": "6SV-009-002",
-      "desc": "카세티 피격시",
-      "dlg": "Maldições, maldições!"
+      "id": "battle_select_11215_1",
+      "desc": "################# LCE AEDD Gregor ###############",
+      "dlg": "A experiência está em andamento. Tenha cuidado ao controlar as variáveis."
     },
     {
-      "id": "6SV-009-002-01",
-      "desc": "카세티 피격시",
-      "dlg": "Maldições, maldições!"
+      "id": "battle_endcommand_11215_1",
+      "desc": "",
+      "dlg": "Vamos fazer um teste e uma tentativa."
     },
     {
-      "id": "6SV-010-001",
-      "desc": "카세티 공격시_1",
-      "dlg": "Hah! Ajoelhe-se!"
+      "id": "battle_enemy_break_11215_1",
+      "desc": "",
+      "dlg": "Esforço admirável. No entanto..."
     },
     {
-      "id": "6SV-010-002",
-      "desc": "카세티 공격시_2",
-      "dlg": "É isso, conheça o seu lugar..."
+      "id": "battle_break_11215_1",
+      "desc": "",
+      "dlg": "Não... Hah."
     },
     {
-      "id": "6SV-010-003-01",
-      "desc": "카세티 공격시_3",
-      "dlg": "Eu tenho você! N-não? S-fique para trás!"
+      "id": "battle_kill_11215_1",
+      "desc": "",
+      "dlg": "... Nada muito notável."
     },
     {
-      "id": "6SV-011-001",
-      "desc": "카세티가 전투 중 등장할 때",
-      "dlg": "Curve-se diante do mestre do reino!"
+      "id": "battle_dead_11215_1",
+      "desc": "",
+      "dlg": "Bem... suponho que também não fui tão excepcional..."
     },
     {
-      "id": "6SV-011-002",
-      "desc": "카세티가 전투 중 등장할 때",
-      "dlg": "O crime de traição merece a morte!"
+      "id": "battle_s3_11215_1_3",
+      "desc": "",
+      "dlg": "Bateria padrão, descarga temporária!"
     },
     {
-      "id": "6SV-012",
-      "desc": "카세티 등장 턴",
-      "dlg": "N-não precisa se preocupar... Khh! Eu posso fazer isso... Eles ficarão quietos quando eu abater todos eles."
+      "id": "battle_special_11215_1",
+      "desc": "",
+      "dlg": "Alterando o modo de saída!"
     },
     {
-      "id": "6SV-013-001",
-      "desc": "카세티 나는… 이 행진의… 왕자이다…! 사용 시",
-      "dlg": "Assim que esta marcha terminar... eu me levantarei como Rei! Para reinar sobre tudo!"
+      "id": "battle_special_11215_1-01",
+      "desc": "",
+      "dlg": "Uau… está bem frito."
     },
     {
-      "id": "6SV-013-002",
-      "desc": "카세티 나는… 이 행진의… 왕자이다…! 사용 시",
-      "dlg": "Observar...! Pois esta é a verdadeira marcha do Príncipe!"
+      "id": "battle_special_11215_2",
+      "desc": "",
+      "dlg": "Eu lhe darei suporte."
     },
     {
-      "id": "6SV-014",
-      "desc": "카세티 나는… 이 행진의… 왕자이다…! 사용 후 다음 턴",
-      "dlg": "Dói tanto... Mas eu desejo ver... a extensão deste poder!"
+      "id": "battle_special_11215_3",
+      "desc": "",
+      "dlg": "Sequência de transferência ativada."
     },
     {
-      "id": "6SV-015",
-      "desc": "사샤 등장 시",
-      "dlg": "Eles não entendem? Hah... se tornar Bloodbags será uma melhoria, uma ascensão!"
-    },
-    {
-      "id": "6SV-017_2",
-      "desc": "사샤 스킬 사용시",
-      "dlg": "Vamos pegar mais sangue!!"
-    },
-    {
-      "id": "6SV-017_2-02",
-      "desc": "사샤 스킬 사용시",
-      "dlg": "Vamos pegar mais sangue, ha ha ha...!"
-    },
-    {
-      "id": "6SV-016_1",
-      "desc": "1AddedHitlineforSasha",
-      "dlg": "Maldições!"
-    },
-    {
-      "id": "6SV-016_1-01",
-      "desc": "1AddedHitlineforSasha",
-      "dlg": "Maldições!"
-    },
-    {
-      "id": "6SV-016_1-02",
-      "desc": "1AddedHitlineforSasha",
-      "dlg": "Maldições!"
+      "id": "battle_special_11215_4",
+      "desc": "",
+      "dlg": "Autocarregue, ative."
     }
   ]
 }

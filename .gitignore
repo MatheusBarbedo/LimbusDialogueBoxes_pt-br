@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+logs/*.log
+logs/*_novos_ids_traduzidos.txt
+logs/*_itens_sem_id_traduzidos.jsonl
+
+original/.gitkeep
+traduzido/.gitkeep
+logs/.gitkeep

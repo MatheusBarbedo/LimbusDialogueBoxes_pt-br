@@ -4,7 +4,7 @@ Tradução em **Português Brasileiro (PT-BR)** das caixas de diálogo de batalh
 
 ## Visão geral
 
-Este projeto foi criado para traduzir para PT-BR os diálogos exibidos nas **speech bubbles** durante as batalhas de **Limbus Company**.
+Este projeto traduz para PT-BR os diálogos exibidos nas **speech bubbles** durante as batalhas de **Limbus Company**.
 
 A base utilizada veio do projeto **LimbusDialogueBoxes_EN**, de **NotherWael**, que organiza e traduz essas falas para o inglês. A partir desse material, este repositório foi montado para gerar versões em **Português Brasileiro**, preservando a estrutura original dos arquivos JSON.
 
@@ -17,59 +17,51 @@ Ambos possuem campos `dlg` que podem ser traduzidos para PT-BR.
 
 ---
 
-## Créditos
-
-Este projeto utiliza como base o trabalho original de:
-
-**NotherWael**  
-Projeto: **LimbusDialogueBoxes_EN**  
-Link: [https://github.com/NotherWael/LimbusDialogueBoxes_EN](https://github.com/NotherWael/LimbusDialogueBoxes_EN)
-
-Todos os créditos pela versão original em inglês e pela organização do material-base pertencem ao autor do projeto acima.
-
----
-
 ## O que este projeto faz
 
 - Traduz apenas os campos `dlg` dos arquivos JSON
 - Mantém intactos os campos `id`, `desc` e a estrutura do arquivo
 - Preserva tags e marcações especiais, como `<i>`, `<color>`, etc.
-- Processa arquivos grandes em blocos para evitar perda de progresso
-- Gera arquivos finais consolidados em PT-BR
+- Reaproveita traduções já existentes com base no campo `id`
+- Traduz apenas **novos ids** que ainda não existem no arquivo de saída
+- Registra logs específicos para auditoria do processo
+- Mostra progresso no console em **batch**, no estilo do fluxo antigo
 
 ---
 
 ## Estrutura do projeto
 
 ```text
-LIMBUSDIALOGUEBOXES_PT-BR/
+LimbusDialogueBoxes_pt-br/
 ├── original/
 │   ├── BattleSpeechBubbleDlg.json
 │   └── BattleSpeechBubbleDlg_mowe.json
 ├── traduzido/
-├── temp/
-├── README.md
-└── tradutor.py
+├── logs/
+├── src/
+│   ├── app.py
+│   ├── config.py
+│   ├── incremental_service.py
+│   ├── io_json.py
+│   └── translator_service.py
+├── tradutor.py
+├── requirements.txt
+└── README.md
 ```
 
 ### Pastas
 
 - `original/`  
-  Contém os arquivos JSON originais que serão usados como entrada
+  Contém os arquivos JSON originais usados como entrada
 
 - `traduzido/`  
   Contém os arquivos finais traduzidos em PT-BR
 
-- `temp/`  
-  Contém os chunks temporários gerados durante o processamento
+- `logs/`  
+  Contém os logs gerados durante a execução
 
-### Arquivos principais
-
-- `tradutor.py`  
-  Script responsável por traduzir os diálogos e gerar os arquivos finais
-
-- `README.md`  
-  Documentação do projeto
+- `src/`  
+  Contém os módulos separados por responsabilidade
 
 ---
 
@@ -85,41 +77,78 @@ Somente esses campos são traduzidos para PT-BR.
 
 Os demais campos, como `id`, `desc` e a estrutura do JSON, permanecem intactos.
 
-### Fluxo do processamento
+### Fluxo incremental
 
-1. O script abre o arquivo JSON configurado na pasta `original/`
-2. Lê a lista `dataList`
-3. Divide o conteúdo em blocos
-4. Traduz apenas os textos do campo `dlg`
-5. Salva os blocos traduzidos dentro da pasta `temp/`
-6. Junta todos os blocos ao final
-7. Gera um novo arquivo JSON em PT-BR na pasta `traduzido/`
+1. O script abre o arquivo da pasta `original/`
+2. Verifica se já existe um arquivo correspondente em `traduzido/`
+3. Monta um mapa por `id` com base no arquivo já traduzido
+4. Para cada item do arquivo original:
+   - se o `id` já existe no traduzido, reaproveita o `dlg`
+   - se o `id` é novo, coloca o item na fila de tradução
+   - se não houver `id`, coloca o item na fila de tradução direta
+5. A fila de tradução é processada em **batch**
+6. O resultado final é salvo em `traduzido/`
 
-Essa abordagem é útil para arquivos grandes, porque se o processo for interrompido, os blocos já concluídos continuam salvos.
+Assim, quando novos diálogos forem adicionados ao arquivo original, você não precisa retraduzir tudo do zero.
 
 ---
 
-## Convenção dos arquivos gerados
+## Fluxo de logs
 
-### Arquivos temporários
+Durante a execução, o projeto gera os seguintes arquivos dentro da pasta `logs/`:
 
-Os chunks temporários são gerados com o nome do arquivo base, sem a extensão:
-
-```text
-temp/chunk_BattleSpeechBubbleDlg_0001.json
-temp/chunk_BattleSpeechBubbleDlg_0002.json
-temp/chunk_BattleSpeechBubbleDlg_mowe_0001.json
-temp/chunk_BattleSpeechBubbleDlg_mowe_0002.json
-```
-
-### Arquivos finais
-
-Os arquivos traduzidos são gerados na pasta `traduzido/`:
+### 1. Log principal
 
 ```text
-traduzido/BattleSpeechBubbleDlg.json
-traduzido/BattleSpeechBubbleDlg_mowe.json
+logs/tradutor.log
 ```
+
+Contém exceções, warnings e informações técnicas do processo.
+
+### 2. Log de novos ids traduzidos
+
+```text
+logs/BattleSpeechBubbleDlg_novos_ids_traduzidos.txt
+logs/BattleSpeechBubbleDlg_mowe_novos_ids_traduzidos.txt
+```
+
+Contém um `id` por linha para cada item novo traduzido naquela execução.
+
+### 3. Log de itens sem id traduzidos diretamente
+
+```text
+logs/BattleSpeechBubbleDlg_itens_sem_id_traduzidos.jsonl
+logs/BattleSpeechBubbleDlg_mowe_itens_sem_id_traduzidos.jsonl
+```
+
+Cada linha contém um JSON com:
+
+- índice do item
+- `desc`
+- `original_dlg`
+- `translated_dlg`
+
+---
+
+## Progresso no console
+
+Durante a execução, o script mostra o progresso em **batch**, em vez de item por item.
+
+Exemplo:
+
+```text
+Total de itens no arquivo original: 1633
+Total de itens pendentes para tradução: 10
+Total de ids reaproveitados: 1623
+Processando em 1 batch(s) de até 200 itens cada.
+
+[batch 1/1] Traduzindo itens pendentes 0 até 9...
+   -> batch concluído (10 itens)
+
+Concluído.
+```
+
+Esse formato mantém a ideia do fluxo antigo, mas aplicado apenas aos itens realmente pendentes na execução incremental.
 
 ---
 
@@ -129,8 +158,10 @@ Antes de executar o projeto, você precisa ter instalado:
 
 - **Python 3.10+** recomendado
 - **pip**
-- Dependência Python:
-  - `deep-translator`
+
+Dependência Python:
+
+- `deep-translator`
 
 ---
 
@@ -146,63 +177,43 @@ cd LimbusDialogueBoxes_pt-br
 Instale a dependência:
 
 ```bash
-pip install deep-translator
+py -m pip install -r requirements.txt
+```
+
+ou:
+
+```bash
+py -m pip install deep-translator
 ```
 
 ---
 
 ## Como rodar
 
-O script atual trabalha com **um arquivo por vez**.
+O projeto trabalha com **um arquivo por vez**.
 
-No `tradutor.py`, ajuste a variável `INPUT_FILE` no topo do arquivo para definir qual JSON será traduzido.
-
-### Exemplo para `BattleSpeechBubbleDlg.json`
+No arquivo `src/config.py`, ajuste:
 
 ```python
 INPUT_FILE = "BattleSpeechBubbleDlg.json"
 ```
 
-Depois execute:
-
-```bash
-python tradutor.py
-```
-
-O script vai ler:
-
-```text
-original/BattleSpeechBubbleDlg.json
-```
-
-E gerar:
-
-```text
-traduzido/BattleSpeechBubbleDlg.json
-```
-
-### Exemplo para `BattleSpeechBubbleDlg_mowe.json`
+ou:
 
 ```python
 INPUT_FILE = "BattleSpeechBubbleDlg_mowe.json"
 ```
 
-Depois execute novamente:
+Você também pode ajustar o tamanho do batch:
+
+```python
+BATCH_SIZE = 200
+```
+
+Depois execute:
 
 ```bash
-python tradutor.py
-```
-
-O script vai ler:
-
-```text
-original/BattleSpeechBubbleDlg_mowe.json
-```
-
-E gerar:
-
-```text
-traduzido/BattleSpeechBubbleDlg_mowe.json
+py tradutor.py
 ```
 
 ---
@@ -227,74 +238,70 @@ Exemplo no PowerShell:
 cd C:\caminho\para\LimbusDialogueBoxes_pt-br
 ```
 
-### 3. Instale a dependência
+### 3. Instale as dependências
 
 ```bash
-pip install deep-translator
+py -m pip install -r requirements.txt
 ```
 
 ### 4. Escolha o arquivo que deseja traduzir
 
-No topo do `tradutor.py`, ajuste:
+No `src/config.py`, altere `INPUT_FILE`:
 
 ```python
 INPUT_FILE = "BattleSpeechBubbleDlg.json"
 ```
 
-ou
+ou:
 
 ```python
 INPUT_FILE = "BattleSpeechBubbleDlg_mowe.json"
 ```
 
-### 5. Execute o script
+### 5. Ajuste o batch, se quiser
 
-```bash
-python tradutor.py
+No `src/config.py`:
+
+```python
+BATCH_SIZE = 200
 ```
 
-### 6. Aguarde o processamento
+### 6. Execute o script
 
-Durante a execução, o script irá:
+```bash
+py tradutor.py
+```
 
-- criar a pasta `traduzido/`, se necessário
-- criar a pasta `temp/`, se necessário
-- gerar arquivos temporários por bloco
-- traduzir apenas os campos `dlg`
-- consolidar o resultado em um arquivo final
+### 7. Verifique o resultado
 
-### 7. Verifique o arquivo gerado
-
-O resultado final ficará na pasta `traduzido/`.
-
-Exemplos:
+O arquivo final será salvo em:
 
 ```text
 traduzido/BattleSpeechBubbleDlg.json
+```
+
+ou:
+
+```text
 traduzido/BattleSpeechBubbleDlg_mowe.json
 ```
 
 ---
 
-## Retomando uma execução interrompida
+## Observação importante sobre atualizações
 
-Como o processamento é feito em blocos, se a execução for interrompida, basta rodar novamente o script.
+Se você adicionar novos itens ao arquivo da pasta `original/`, basta rodar o script novamente.
 
-Os arquivos já gerados na pasta `temp/` podem ser reaproveitados, evitando retrabalho.
+Ele irá:
 
-Como os chunks agora incluem o nome do arquivo base, é possível traduzir arquivos diferentes sem misturar os blocos temporários.
+- reaproveitar os `ids` já traduzidos
+- traduzir apenas os novos `ids`
+- registrar esses novos `ids` no log correspondente
+- agrupar o trabalho em batch no console
 
 ---
 
-## Logs e revisão
-
-O script gera um arquivo de log chamado:
-
-```text
-tradutor.log
-```
-
-Esse log pode ajudar a identificar falhas de tradução ou valores inesperados durante a execução.
+## Revisão da tradução
 
 Como parte do conteúdo foi gerada com auxílio de tradução automática, algumas linhas ainda podem precisar de:
 
@@ -310,6 +317,18 @@ Como parte do conteúdo foi gerada com auxílio de tradução automática, algum
 🚧 Projeto em andamento.
 
 O objetivo é complementar o trabalho já feito pela comunidade em PT-BR, trazendo também a tradução das caixas de diálogo de batalha que ainda não haviam sido cobertas.
+
+---
+
+## Créditos
+
+Este projeto utiliza como base o trabalho original de:
+
+**NotherWael**  
+Projeto: **LimbusDialogueBoxes_EN**  
+Link: [https://github.com/NotherWael/LimbusDialogueBoxes_EN](https://github.com/NotherWael/LimbusDialogueBoxes_EN)
+
+Todos os créditos pela versão original em inglês e pela organização do material-base pertencem ao autor do projeto acima.
 
 ---
 
