@@ -1072,6 +1072,189 @@
       "dlg": "O que resta para me enfurecer... é apenas o meu miserável coração."
     },
     {
+      "desc": "################# A Midspring Night's Dream 3 Event ###############"
+    },
+    {
+      "id": "battle_select_400025_1",
+      "desc": "################# Baby Yi Sang ###############",
+      "dlg": "Você ligou... certo?"
+    },
+    {
+      "id": "battle_endcommand_400025_1",
+      "desc": "",
+      "dlg": "Eu vou fazer isso!"
+    },
+    {
+      "id": "battle_s3_400025_1",
+      "desc": "",
+      "dlg": "É ideal..."
+    },
+    {
+      "id": "battle_select_400026_1",
+      "desc": "################# Baby Faust ###############",
+      "dlg": "Estou ouvindo."
+    },
+    {
+      "id": "battle_endcommand_400026_1",
+      "desc": "",
+      "dlg": "Paus fará isso."
+    },
+    {
+      "id": "battle_s3_400026_1",
+      "desc": "",
+      "dlg": "Ah, preciso melhorar meu equilíbrio."
+    },
+    {
+      "id": "battle_select_400027_1",
+      "desc": "################# Baby Quixote ###############",
+      "dlg": "Você pediu! Você pediu!!"
+    },
+    {
+      "id": "battle_endcommand_400027_1",
+      "desc": "",
+      "dlg": "Você pediu!!!"
+    },
+    {
+      "id": "battle_s3_400027_1",
+      "desc": "",
+      "dlg": "__DIA_0__Oiaaaaaaaah!!__DIA_1__"
+    },
+    {
+      "id": "battle_select_400028_1",
+      "desc": "################# Baby Ryoshu ###############",
+      "dlg": "O que... é isso?"
+    },
+    {
+      "id": "battle_endcommand_400028_1",
+      "desc": "",
+      "dlg": "Hum, doce esgrima."
+    },
+    {
+      "id": "battle_s3_400028_1",
+      "desc": "",
+      "dlg": "N.S.\n<size=50%>(Pescoço. Quebrado.)</size>"
+    },
+    {
+      "id": "battle_select_400029_1",
+      "desc": "################# Baby Meursault ###############",
+      "dlg": "Sim, diretor."
+    },
+    {
+      "id": "battle_endcommand_400029_1",
+      "desc": "",
+      "dlg": "Deixe isso comigo."
+    },
+    {
+      "id": "battle_s3_400029_1",
+      "desc": "",
+      "dlg": "Libra – plas."
+    },
+    {
+      "id": "battle_select_400030_1",
+      "desc": "################# Baby Hong Lu ###############",
+      "dlg": "Estou ouvindo ~"
+    },
+    {
+      "id": "battle_endcommand_400030_1",
+      "desc": "",
+      "dlg": "Parece que meu corpo está ficando mais leve ~"
+    },
+    {
+      "id": "battle_s3_400030_1",
+      "desc": "",
+      "dlg": "Não é bem do meu gosto ~"
+    },
+    {
+      "id": "battle_select_400031_1",
+      "desc": "################# Baby Heathcliff ###############",
+      "dlg": "Engh... Waschu olhando!"
+    },
+    {
+      "id": "battle_endcommand_400031_1",
+      "desc": "",
+      "dlg": "Hehehehe! Issa pernilongo billy!"
+    },
+    {
+      "id": "battle_s3_400031_1",
+      "desc": "",
+      "dlg": "Tingir!!"
+    },
+    {
+      "id": "battle_select_400032_1",
+      "desc": "################# Baby Ishmael ###############",
+      "dlg": "Se eu sou o Wice Capain! Eu posso fazer ainda melhor!"
+    },
+    {
+      "id": "battle_endcommand_400032_1",
+      "desc": "",
+      "dlg": "Grande Teesh! Por favor, cuide deles!"
+    },
+    {
+      "id": "battle_s3_400032_1",
+      "desc": "",
+      "dlg": "Me dê os ingredientes!"
+    },
+    {
+      "id": "battle_select_400033_1",
+      "desc": "################# Baby Rodion ###############",
+      "dlg": "<i>*risada*</i> Parece estranho!"
+    },
+    {
+      "id": "battle_endcommand_400033_1",
+      "desc": "",
+      "dlg": "Essa pernalta é minha!"
+    },
+    {
+      "id": "battle_s3_400033_1",
+      "desc": "",
+      "dlg": "Uugh... o membro inferior é nojento!"
+    },
+    {
+      "id": "battle_select_400034_1",
+      "desc": "################# Baby Sinclair ###############",
+      "dlg": "Hum... posso ser... Wice Captin?"
+    },
+    {
+      "id": "battle_endcommand_400034_1",
+      "desc": "",
+      "dlg": "Eu também vou ficar bwave!"
+    },
+    {
+      "id": "battle_s3_400034_1",
+      "desc": "",
+      "dlg": "Vamos!"
+    },
+    {
+      "id": "battle_select_400035_1",
+      "desc": "################# Baby Outis ###############",
+      "dlg": "Você me chamou?"
+    },
+    {
+      "id": "battle_endcommand_400035_1",
+      "desc": "",
+      "dlg": "Comece a operação!"
+    },
+    {
+      "id": "battle_s3_400035_1",
+      "desc": "",
+      "dlg": "Por favor, olhe para mim…\nProfessor Executivo!"
+    },
+    {
+      "id": "battle_select_400036_1",
+      "desc": "################# Baby Gregor ###############",
+      "dlg": "Todos nós... não temos escolha a não ser lutar..."
+    },
+    {
+      "id": "battle_endcommand_400036_1",
+      "desc": "",
+      "dlg": "__DIA_0__Olá!!__DIA_1__"
+    },
+    {
+      "id": "battle_s3_400036_1",
+      "desc": "",
+      "dlg": "Não é... bugado!"
+    },
+    {
       "desc": "######################### IDENTITIES SPEECH BUBBLES ###########################"
     },
     {
@@ -8261,6 +8444,171 @@
       "id": "battle_special_11215_4",
       "desc": "",
       "dlg": "Autocarregue, ative."
+    },
+    {
+      "id": "battle_select_10215_1",
+      "desc": "########## The Ring Apprentice Faust #############",
+      "dlg": "Por favor, observe à distância – é apenas para visualização."
+    },
+    {
+      "id": "battle_endcommand_10215_1",
+      "desc": "",
+      "dlg": "Uma centelha de inspiração."
+    },
+    {
+      "id": "battle_enemy_break_10215_1",
+      "desc": "",
+      "dlg": "Esses vasos sanguíneos são suficientemente espessos. Nada mal."
+    },
+    {
+      "id": "battle_break_10215_1",
+      "desc": "",
+      "dlg": "Você está com medo, Fáscia?"
+    },
+    {
+      "id": "battle_kill_10215_1",
+      "desc": "",
+      "dlg": "Só agora nos tornamos amigos."
+    },
+    {
+      "id": "battle_dead_10215_1",
+      "desc": "",
+      "dlg": "Banda..."
+    },
+    {
+      "id": "battle_s2_10215_1_1",
+      "desc": "",
+      "dlg": "Vou levar esse ingrediente Corpus."
+    },
+    {
+      "id": "battle_s3_10215_1_1",
+      "desc": "",
+      "dlg": "Meus ossos como moldura, minha carne como recheio – a arte do exterior."
+    },
+    {
+      "id": "battle_special_10215_1",
+      "desc": "",
+      "dlg": "Suponho que devo mostrar-lhe a arte do exterior."
+    },
+    {
+      "id": "battle_special_10215_2",
+      "desc": "",
+      "dlg": "Não aprecio atos de vandalismo."
+    },
+    {
+      "id": "battle_special_10215_3",
+      "desc": "",
+      "dlg": "Você sempre consegue despertar minha inspiração."
+    },
+    {
+      "id": "battle_select_10614_1",
+      "desc": "############# The Ring Nursefather Hong Lu ###############",
+      "dlg": "Shh. Por favor, fique em silêncio enquanto assiste a uma exposição."
+    },
+    {
+      "id": "battle_endcommand_10614_1",
+      "desc": "",
+      "dlg": "Por favor, compartilhe suas impressões!"
+    },
+    {
+      "id": "battle_enemy_break_10614_1",
+      "desc": "",
+      "dlg": "Você tem alguma última palavra para transmitir ao mundo...?"
+    },
+    {
+      "id": "battle_break_10614_1",
+      "desc": "",
+      "dlg": "Talvez meu... olho para a sublimidade estivesse faltando..."
+    },
+    {
+      "id": "battle_kill_10614_1",
+      "desc": "",
+      "dlg": "Ah... Que maravilhoso grito de morte."
+    },
+    {
+      "id": "battle_dead_10614_1",
+      "desc": "",
+      "dlg": "É você... Meu agente funerário..."
+    },
+    {
+      "id": "battle_s3_10614_1_2",
+      "desc": "",
+      "dlg": "Você ouve isso? A harmonia eufônica do par de úmero e 24 costelas...! Melodia do Tibia!"
+    },
+    {
+      "id": "battle_special_10614_1",
+      "desc": "",
+      "dlg": "Para o público…\nNão posso mostrar mais nenhum comportamento vergonhoso."
+    },
+    {
+      "id": "battle_special_10614_1-01",
+      "desc": "",
+      "dlg": "Para o público…\nNão posso mostrar mais nenhum comportamento vergonhoso."
+    },
+    {
+      "id": "battle_special_10614_2",
+      "desc": "",
+      "dlg": "O vandalismo é proibido!"
+    },
+    {
+      "id": "battle_special_10614_3",
+      "desc": "",
+      "dlg": "Fausto. Chegou a hora de expor a arte do Corporismo."
+    },
+    {
+      "id": "battle_special_10614_4",
+      "desc": "",
+      "dlg": "O horário de encerramento da galeria é aqui..."
+    },
+    {
+      "id": "battle_special_10614_4-01",
+      "desc": "",
+      "dlg": "O horário de encerramento da galeria é aqui..."
+    },
+    {
+      "id": "battle_special_10614_4-1",
+      "desc": "",
+      "dlg": "Todos. Adeus!"
+    },
+    {
+      "id": "battle_special_10614_4-01-1",
+      "desc": "",
+      "dlg": "Todos. Adeus!"
+    },
+    {
+      "id": "battle_special_10614_4-02",
+      "desc": "",
+      "dlg": "Chegou o horário de fechamento da galeria?"
+    },
+    {
+      "id": "battle_special_10614_4-02-1",
+      "desc": "",
+      "dlg": "Todos! Adeus."
+    },
+    {
+      "id": "battle_special_10614_4-03",
+      "desc": "",
+      "dlg": "Chegou o horário de fechamento da galeria?"
+    },
+    {
+      "id": "battle_special_10614_4-03-1",
+      "desc": "",
+      "dlg": "Todos! Adeus."
+    },
+    {
+      "id": "battle_special_10614_5",
+      "desc": "",
+      "dlg": "Isso é uma pena. Eu esperava que se tornasse uma obra de arte com cicatrizes mais impressionantes..."
+    },
+    {
+      "id": "battle_special_10614_6",
+      "desc": "",
+      "dlg": "Ah…! Que artístico…!"
+    },
+    {
+      "id": "battle_special_10614_7",
+      "desc": "",
+      "dlg": "A partir daí… Por favor, observe…!"
     }
   ]
 }
