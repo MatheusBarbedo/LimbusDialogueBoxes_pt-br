@@ -1117,7 +1117,7 @@
     {
       "id": "battle_s3_400027_1",
       "desc": "",
-      "dlg": "__DIA_0__Oiaaaaaaaah!!__DIA_1__"
+      "dlg": "<i>Oiaaaaaaaah!!</i>"
     },
     {
       "id": "battle_select_400028_1",
@@ -1247,7 +1247,7 @@
     {
       "id": "battle_endcommand_400036_1",
       "desc": "",
-      "dlg": "__DIA_0__Olá!!__DIA_1__"
+      "dlg": "<i>Olá!!</i>"
     },
     {
       "id": "battle_s3_400036_1",
@@ -2575,7 +2575,7 @@
     {
       "id": "battle_enemy_break_10304_1",
       "desc": "",
-      "dlg": "__DIA_0__Huhuhahahahaha!__DIA_1__"
+      "dlg": "<i>Huhuhahahahaha!</i>"
     },
     {
       "id": "battle_kill_10304_1",
@@ -4900,17 +4900,17 @@
     {
       "id": "battle_select_10710_1",
       "desc": "############ Wildhunt Heathcliff ############",
-      "dlg": "__DIA_0__Heheheheahahahaha!__DIA_1__"
+      "dlg": "<i>Heheheheahahahaha!</i>"
     },
     {
       "id": "battle_select_10710_2",
       "desc": "",
-      "dlg": "__DIA_0__Hehheahahaahaha!!__DIA_1__"
+      "dlg": "<i>Hehheahahaahaha!!</i>"
     },
     {
       "id": "battle_select_10710_3",
       "desc": "",
-      "dlg": "__DIA_0__Hehehahahahaha!!!__DIA_1__"
+      "dlg": "<i>Hehehahahahaha!!!</i>"
     },
     {
       "id": "battle_endcommand_10710_1",
@@ -5585,7 +5585,7 @@
     {
       "id": "battle_react_10310_5-2",
       "desc": "",
-      "dlg": "Ascendente Sancho\nArtes Sangue Duro...\n__DIA_0__La Sangre.__DIA_1__"
+      "dlg": "Ascendente Sancho\nArtes Sangue Duro...\n<i>La Sangre.</i>"
     },
     {
       "id": "battle_react_10310_5-2-1",
@@ -6060,7 +6060,7 @@
     {
       "id": "battle_s3_11211_1_3-02",
       "desc": "",
-      "dlg": "__DIA_0__HYAAAAAAAAAAAAAAAAAH!!!__DIA_1__"
+      "dlg": "<i>HYAAAAAAAAAAAAAAAAAH!!!</i>"
     },
     {
       "id": "battle_s3_11211_1_3-05",
@@ -6080,7 +6080,7 @@
     {
       "id": "battle_s3_11211_1_3-01",
       "desc": "",
-      "dlg": "__DIA_0__YRRAAAAAAAAAAAAAAGH!!!__DIA_1__"
+      "dlg": "<i>YRRAAAAAAAAAAAAAAGH!!!</i>"
     },
     {
       "id": "battle_s3_11211_1_3-04",
