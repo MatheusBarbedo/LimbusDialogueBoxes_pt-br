@@ -443,7 +443,7 @@
     {
       "id": "battle_react_10613_10",
       "desc": "말풍선 특수 대사_홍원 군주 홍루_가환",
-      "dlg": "A vingança de Jia Huan não deveria afetar você tanto agora, deveria...? Quando é que esta revoltante demonstração de melodrama tardio substituiu a sua defesa do pragmatismo frio e calculista que tinha discutido antes de mim?"
+      "dlg": "A vingança de Jia Huan não deveria afetar você tanto agora, deveria...? Quando é que esta revoltante exibição de melodrama tardio substituiu a sua defesa do pragmatismo frio e calculista que tinha discutido antes de mim?"
     },
     {
       "id": "battle_react_10613_701",
@@ -1525,7 +1525,7 @@
     {
       "id": "battle_kill_10402_1",
       "desc": "",
-      "dlg": "PACTOS."
+      "dlg": "PACTOS\n<size=50%>(Pico da arte criada através da esgrima)</size>"
     },
     {
       "id": "battle_break_10402_1",
@@ -1755,7 +1755,7 @@
     {
       "id": "battle_select_10702_1",
       "desc": "############ Shi South Sect5 Heathcliff ############",
-      "dlg": "Tudo bem, quem você quer que eu destrua?"
+      "dlg": "Tudo bem, quem você quer que eu descarte?"
     },
     {
       "id": "battle_endcommand_10702_1",
@@ -1770,7 +1770,7 @@
     {
       "id": "battle_kill_10702_1",
       "desc": "",
-      "dlg": "Alvo apagado ~"
+      "dlg": "Alvo apagado~"
     },
     {
       "id": "battle_break_10702_1",
@@ -2515,22 +2515,22 @@
     {
       "id": "battle_s3_10404_1_1",
       "desc": "",
-      "dlg": "E.\n(Você é.)"
+      "dlg": "E.\n<size=50%>(Você é.)</size>"
     },
     {
       "id": "battle_s3_10404_1_2",
       "desc": "",
-      "dlg": "JÁ.\n(Você é um.)"
+      "dlg": "JÁ.\n<size=50%>(Você é um.)</size>"
     },
     {
       "id": "battle_s3_10404_1_3",
       "desc": "",
-      "dlg": "Y.A.T.T\n(Você faz cócegas no paladar.)"
+      "dlg": "Y.A.T.T\n<size=50%>(Você faz cócegas no paladar.)</size>"
     },
     {
       "id": "battle_s3_10404_1_4",
       "desc": "",
-      "dlg": "Y.A.T.T.A.\n(Você é uma atração que agrada o paladar.)"
+      "dlg": "Y.A.T.T.A.\n<size=50%>(Você é uma atração que agrada o paladar.)</size>"
     },
     {
       "id": "battle_select_11204_1",
@@ -4195,7 +4195,7 @@
     {
       "id": "battle_select_10908_1",
       "desc": "############ Liu South Sect4 Rodion ############",
-      "dlg": "Ufa, cuidado com o calor! Eu também posso ouvir você à distância, você sabe ~"
+      "dlg": "Uau, cuidado com o calor! Eu também posso ouvir você à distância, você sabe ~"
     },
     {
       "id": "battle_endcommand_10908_1",
@@ -4575,7 +4575,7 @@
     {
       "id": "battle_dead_10109_1",
       "desc": "",
-      "dlg": "Perecer no processo de criação artística… Verdadeiramente, não há… morte… mais ideal…"
+      "dlg": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know."
     },
     {
       "id": "battle_s3_10109_1_4-7",
@@ -4665,7 +4665,7 @@
     {
       "id": "battle_enemy_break_10609_1",
       "desc": "",
-      "dlg": "Não lute pela grande causa~"
+      "dlg": "Não lute pela grande causa ~"
     },
     {
       "id": "battle_kill_10609_1",
@@ -5430,7 +5430,7 @@
     {
       "id": "battle_s3_11011_1_4",
       "desc": "",
-      "dlg": "Se você não se mover!"
+      "dlg": "Se você não se mexer!"
     },
     {
       "id": "battle_s3_11011_1_4-1",
@@ -5470,7 +5470,7 @@
     {
       "id": "",
       "desc": "",
-      "dlg": "<i>[Fase 2, a produção da transportadora aumentou. Recomenda-se o pioneirismo rápido.]</i>"
+      "dlg": "<i>[Fase 2, aumento da produção da transportadora. Recomenda-se o pioneirismo rápido.]</i>"
     },
     {
       "id": "",
@@ -5940,12 +5940,12 @@
     {
       "id": "battle_s3_10811_1_1-01",
       "desc": "",
-      "dlg": "4º formulário."
+      "dlg": "4º Formulário..."
     },
     {
       "id": "battle_s3_10811_1_3-02",
       "desc": "",
-      "dlg": "Acabou a tinta."
+      "dlg": "... Acabou a tinta."
     },
     {
       "id": "battle_special_10811_1",
@@ -7973,7 +7973,7 @@
     {
       "id": "battle_s3_11214_1_5",
       "desc": "",
-      "dlg": "Vamos iluminar o caminho que temos pela frente, para que eu possa ter uma boa visão das vidas que devo salvar."
+      "dlg": "Vamos iluminar o caminho à frente, para que eu possa ter uma boa visão das vidas que devo salvar."
     },
     {
       "id": "battle_s3_11214_1_6",
@@ -8013,7 +8013,7 @@
     {
       "id": "battle_dead_11015_1",
       "desc": "본인 사망",
-      "dlg": "Uma vida tão passageira, uma morte que deveria acontecer... Mas esta falha em herdar o nome de uma Estrela... é o meu lamentável arrependimento."
+      "dlg": "Uma vida tão passageira, uma morte destinada a acontecer... Mas esta falha em herdar o nome de uma Estrela... é o meu lamentável arrependimento."
     },
     {
       "id": "battle_s2_11015_1_4",
@@ -8538,12 +8538,12 @@
     {
       "id": "battle_special_10614_1",
       "desc": "",
-      "dlg": "Para o público…\nNão posso mostrar mais nenhum comportamento vergonhoso."
+      "dlg": "Não posso permitir que o público testemunhe uma visão tão degradante."
     },
     {
       "id": "battle_special_10614_1-01",
       "desc": "",
-      "dlg": "Para o público…\nNão posso mostrar mais nenhum comportamento vergonhoso."
+      "dlg": "Não posso permitir que o público testemunhe uma visão tão degradante."
     },
     {
       "id": "battle_special_10614_2",
@@ -8578,7 +8578,7 @@
     {
       "id": "battle_special_10614_4-02",
       "desc": "",
-      "dlg": "Chegou o horário de fechamento da galeria?"
+      "dlg": "O horário de encerramento da galeria é aqui..."
     },
     {
       "id": "battle_special_10614_4-02-1",
@@ -8588,7 +8588,7 @@
     {
       "id": "battle_special_10614_4-03",
       "desc": "",
-      "dlg": "Chegou o horário de fechamento da galeria?"
+      "dlg": "O horário de encerramento da galeria é aqui..."
     },
     {
       "id": "battle_special_10614_4-03-1",
@@ -8598,17 +8598,17 @@
     {
       "id": "battle_special_10614_5",
       "desc": "",
-      "dlg": "Isso é uma pena. Eu esperava que se tornasse uma obra de arte com cicatrizes mais impressionantes..."
+      "dlg": "Que pena. Eu esperava que isso se tornasse uma obra de arte com cicatrizes mais impressionantes…"
     },
     {
       "id": "battle_special_10614_6",
       "desc": "",
-      "dlg": "Ah…! Que artístico…!"
+      "dlg": "Ah...! Arte maravilhosa...!"
     },
     {
       "id": "battle_special_10614_7",
       "desc": "",
-      "dlg": "A partir daí… Por favor, observe…!"
+      "dlg": "A partir daí... Por favor, observe...!"
     }
   ]
 }
