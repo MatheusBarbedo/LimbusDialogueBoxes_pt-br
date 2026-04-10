@@ -5295,7 +5295,7 @@
     {
       "id": "battle_kill_11111_1",
       "desc": "",
-      "dlg": "Nem vale um patchwork. Desmoronar onde você está."
+      "dlg": "Nem vale a pena remendar. Vai desmoronar onde você estiver."
     },
     {
       "id": "battle_break_11111_1",
@@ -8553,7 +8553,7 @@
     {
       "id": "battle_special_10614_3",
       "desc": "",
-      "dlg": "Fausto. Chegou a hora de expor a arte do Corporismo."
+      "dlg": "Faust. Chegou a hora de expor a arte do Corporismo."
     },
     {
       "id": "battle_special_10614_4",
