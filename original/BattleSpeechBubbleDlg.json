@@ -8053,7 +8053,7 @@
     {
           "id": "battle_s3_10413_1_3-02",
           "desc": "",
-          "dlg": "Sky Launching Spear\n(踏空槍零)."
+          "dlg": "Shadow of the Sky-Stepping Spear(踏空槍零)."
     },
     {
           "id": "battle_special_10413_1",
@@ -8959,7 +8959,7 @@
     {
       "id": "battle_s2_10215_1_1",
       "desc": "",
-      "dlg": "I'll take that Corpus Ingredient."
+      "dlg": "I'll take this ingredient."
     },
     {
       "id": "battle_s3_10215_1_1",
@@ -9081,7 +9081,7 @@
     {
       "id": "battle_special_10614_5",
       "desc": "",
-      "dlg": "What a shame. I had hoped it would've become an artwork bearing more impressive scars…"
+      "dlg": "What a shame. I had hoped the scars left on her would've sublimated her into a more impressive artwork..."
     },
     {
       "id": "battle_special_10614_6",
