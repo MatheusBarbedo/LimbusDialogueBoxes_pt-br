@@ -3233,6 +3233,11 @@
       "dlg": "Ah... Era... era para ser uma limpeza simples...?"
     },
     {
+      "id": "battle_s2_10606_1-04",
+      "desc": "",
+      "dlg": "Ah-ha~"
+    },
+    {
       "id": "battle_select_10206_1",
       "desc": "############ Seven Assoc. Faust ############",
       "dlg": "Antes que o chá esfrie."
@@ -4575,7 +4580,7 @@
     {
       "id": "battle_dead_10109_1",
       "desc": "",
-      "dlg": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know."
+      "dlg": "Perecer no processo de criação artística… Verdadeiramente, não há… morte… mais ideal…"
     },
     {
       "id": "battle_s3_10109_1_4-7",
@@ -5470,7 +5475,7 @@
     {
       "id": "",
       "desc": "",
-      "dlg": "<i>[Fase 2, a produção da transportadora aumentou. Recomenda-se o pioneirismo rápido.]</i>"
+      "dlg": "<i>[Fase 2, aumento da produção da transportadora. Recomenda-se o pioneirismo rápido.]</i>"
     },
     {
       "id": "",
@@ -8609,6 +8614,141 @@
       "id": "battle_special_10614_7",
       "desc": "",
       "dlg": "A partir daí... Por favor, observe...!"
+    },
+    {
+      "id": "battle_select_10515_1",
+      "desc": "####### The Ring Fauvist Student Meursault #######",
+      "dlg": "Puxar a coleira de um cão antes que sua presa seja...!"
+    },
+    {
+      "id": "battle_endcommand_10515_1",
+      "desc": "",
+      "dlg": "É selvagem!"
+    },
+    {
+      "id": "battle_enemy_break_10515_1",
+      "desc": "",
+      "dlg": "Uma vez dominado o material canino,"
+    },
+    {
+      "id": "battle_break_10515_1",
+      "desc": "",
+      "dlg": "Ngh, mas a tarefa—"
+    },
+    {
+      "id": "battle_kill_10515_1",
+      "desc": "",
+      "dlg": "Eu gostaria de trabalhar <i>com</i> você em meu próximo projeto."
+    },
+    {
+      "id": "battle_dead_10515_1",
+      "desc": "",
+      "dlg": "O feto da morte... fui eu mesmo como obra de arte... o tempo todo."
+    },
+    {
+      "id": "battle_s3_10515_1_2",
+      "desc": "",
+      "dlg": "Mais fundo em algo mais selvagem..."
+    },
+    {
+      "id": "battle_special_10515_1",
+      "desc": "",
+      "dlg": "... com um toque final de intensidade."
+    },
+    {
+      "id": "battle_special_10515_3",
+      "desc": "",
+      "dlg": "Hum. Cicatrizes em formato de garras...\nCombina com você."
+    },
+    {
+      "id": "battle_special_10515_4",
+      "desc": "",
+      "dlg": "Obrigado pela inspiração."
+    },
+    {
+      "id": "battle_select_10915_1",
+      "desc": "####### The Ring Fauvist Docent Rodion #######",
+      "dlg": "Cuidadoso. Você está despindo a obra de arte com os olhos."
+    },
+    {
+      "id": "battle_endcommand_10915_1",
+      "desc": "",
+      "dlg": "Com uma paleta de cores fora deste mundo."
+    },
+    {
+      "id": "battle_enemy_break_10915_1",
+      "desc": "",
+      "dlg": "O que está errado? Minhas garras ficaram sob sua pele?"
+    },
+    {
+      "id": "battle_break_10915_1",
+      "desc": "",
+      "dlg": "Hum. Este material tem mais força do que parece."
+    },
+    {
+      "id": "battle_kill_10915_1",
+      "desc": "",
+      "dlg": "Adeus."
+    },
+    {
+      "id": "battle_dead_10915_1",
+      "desc": "",
+      "dlg": "Hah... Não estava planejando... marcar minhas coisas... com um prêmio póstumo tão cedo."
+    },
+    {
+      "id": "battle_s3_10915_1_1",
+      "desc": "",
+      "dlg": "Arte mal feita..."
+    },
+    {
+      "id": "battle_s3_10915_1_5",
+      "desc": "",
+      "dlg": "... só pode ser retrabalhado dando uma mordida!"
+    },
+    {
+      "id": "battle_special_10915_1_1",
+      "desc": "",
+      "dlg": "Nervo. Alinhamento!"
+    },
+    {
+      "id": "battle_special_10915_1_2",
+      "desc": "",
+      "dlg": "<i>Ahahahahahaha!</i>"
+    },
+    {
+      "id": "battle_special_10915_1_3",
+      "desc": "",
+      "dlg": "Ferozmente!"
+    },
+    {
+      "id": "battle_special_10915_2_1",
+      "desc": "",
+      "dlg": "Devo dar uma olhada?"
+    },
+    {
+      "id": "battle_special_10915_2_2",
+      "desc": "",
+      "dlg": "A intensidade é um pouco desanimadora...?"
+    },
+    {
+      "id": "battle_special_10915_2_3",
+      "desc": "",
+      "dlg": "Nada mal, eu diria..."
+    },
+    {
+      "id": "battle_special_10915_3",
+      "desc": "",
+      "dlg": "Meu precioso bordado...\nVou mostrar para você especialmente!"
+    },
+    {
+      "id": "battle_special_10915_4",
+      "desc": "",
+      "dlg": "Massa."
+    },
+    {
+      "id": "battle_special_10915_5",
+      "desc": "",
+      "dlg": "Ok ~ Isso é tudo pelas minhas impressões."
     }
   ]
 }
